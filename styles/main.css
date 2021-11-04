@@ -1,0 +1,157 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  width: 800px;
+  height: 80%;
+  /*Re-center based on window size*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  /*background*/
+  background-color: black;
+}
+
+header{
+  /*spacing*/
+  text-align: left;
+  padding-left: 20px;
+  height: 80px;
+  color: rgba(0,255,255,0.7);
+  text-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+}
+
+main{
+  /*spacing*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+}
+
+footer{
+  font-size: 70%;
+  text-align: right;
+  /*spacing*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  text-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+}
+
+a{
+  color: rgba(0,255,255,0.7);
+}
+a:hover{
+
+}
+
+#left {
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  padding-top: 20px;
+
+}
+#right{
+  display: inline-block;
+  float: right;
+  position: absolute;
+  margin: auto;
+  padding-left: 505px;
+}
+#button{
+  position: relative;
+  margin: auto;
+  left: 330px;
+  font-weight: bold;
+  background: rgba(0,255,255,0.7);;
+  color: white;
+  box-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+  outline: none;
+  border: 2px solid rgba(0,255,255,0.7);
+  width: 100px;
+  height: 30px;
+
+}
+
+select{
+  font-weight: bold;
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(0,255,255,0.7);
+  box-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+  outline: none;
+
+}
+option{
+  /*background-color: rgba(0,255,255,0.7);*/
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.7);
+  text-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+  outline: none;
+  background-image:none !important;
+}
+
+option:hover{
+  outline: none;
+  background-image:none !important;
+}
+
+table {
+  font-weight: bold;
+  margin: 0 auto;
+  border-spacing: 15px;
+}
+
+.data td{
+  width: 200px;
+  height: 45px;
+  border: 4px solid rgba(0,255,255,0.7);
+  box-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+  /*-----text stuff-----*/
+  text-align: center;
+  color: rgba(0,255,255,0.7);
+}
+
+th {
+  color: rgba(0,255,255,0.7);
+  text-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+}
+
+.record td {
+  font-size: auto;
+  text-align: center;
+}
+td.left {
+  text-align: right;
+  font-size: 150%;
+  text-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+  width: 30%;
+  height: 70px;
+}
+td.right {
+  text-align: left;
+  font-size: 150%;
+  text-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+  width: 30%;
+  height: 70px;
+}
+
+td.center {
+  font-size: 200%;
+  text-align: center;
+  color: white;
+  border: 4px solid rgba(0,255,255,0.7);
+  box-shadow: 0px 10px 25px rgba(0,255,255,0.7);
+  width: 200px;
+  height: 70px;
+}
+
+.singleName{
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+}
